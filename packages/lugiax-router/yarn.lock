@@ -137,10 +137,10 @@
   resolved "https://registry.yarnpkg.com/@lugia/lugiax-common/-/lugiax-common-1.0.1.tgz#9df8981c1e95ff4fd3381c1fb63dfaa4a78e22b5"
   integrity sha512-rOpYqHo+acSgLNzWb31mlIWtd/Mlbog1Y6dUm2FbkyLELGvTyCW1pD8Iy7gi/ytX0PGCVtrFKryU3m4F2RCOtA==
 
-"@lugia/lugiax-core@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@lugia/lugiax-core/-/lugiax-core-1.1.4.tgz#e778d372493d089467a11b75a2e41bb1790e6da6"
-  integrity sha512-Z2V9QBokiP3V7up3geCK4YZ9KOE+yiQcL8BrVGo2T1RFmhPcT2iOC7rsh6GnOoaPadLnLG45E8SMq380GuW5jQ==
+"@lugia/lugiax-core@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@lugia/lugiax-core/-/lugiax-core-1.1.5.tgz#ab74357a630eff3160cb6230b0bab18a86441556"
+  integrity sha512-sAnd21ROZ+SuzQR3lgr8NLvEkwVXZqK/hDaf7ebWi+bkz7GEvefxo07R9V/3mQL5THKJOiD1gpVhM7DTF94hxA==
   dependencies:
     "@lugia/lugiax-common" "^1.0.1"
     "@lugia/type-utils" "^1.0.6"
@@ -148,23 +148,23 @@
     redux "^4.0.0"
     redux-saga "^0.16.0"
 
-"@lugia/lugiax-data@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@lugia/lugiax-data/-/lugiax-data-1.0.3.tgz#3b40c2b01476f99f710090ddc932a0857e5f0234"
-  integrity sha512-41olLKilx3A7iDnuS7uXnlsSZQ/CKf2/Oqu2BwKBI/GrJmRg/4A+LDGfAUQzSzHLGl+2/miFTHeh3/ogS/ogJg==
+"@lugia/lugiax-data@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@lugia/lugiax-data/-/lugiax-data-1.0.4.tgz#0f27a192d5e0360e9c8c51c04f8228223d4b540c"
+  integrity sha512-bV7O6Xpu2LqQxn/mcxKEctedyuw1KmEJZzJh/qQ9Wv/njrt4uLsEidK6BVMvLzLu2tx36IZe8sdoKi99RnpkGg==
   dependencies:
     "@lugia/lugiax-common" "^1.0.1"
     is-plain-object "^3.0.0"
     shortid "^2.2.15"
 
-"@lugia/lugiax@^1.1.8":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@lugia/lugiax/-/lugiax-1.1.8.tgz#658cb981f2c080daed333cb10e2cf689a894e12d"
-  integrity sha512-k0B3FT3edDaW55tIRaj1ro/iM6asaqzTY6RA3eolEZCJCBL7leOXCutG80kqZ3qY+yeZtOwMVrQ85xRz8sitSw==
+"@lugia/lugiax@^1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@lugia/lugiax/-/lugiax-1.1.9.tgz#aa77280379939826e073cd66a5f5410d20f73803"
+  integrity sha512-KBimkvo94cganSa//w4G/VozfjaxeoS4QYWWur77FtIVoGFA3JnoKgo5N5QuIxnHdUjzIzlFQlH/4oByU8Nt6Q==
   dependencies:
     "@lugia/combine" "^1.0.2"
-    "@lugia/lugiax-core" "^1.1.4"
-    "@lugia/lugiax-data" "^1.0.3"
+    "@lugia/lugiax-core" "^1.1.5"
+    "@lugia/lugiax-data" "^1.0.4"
     hoist-non-react-statics "^3.3.2"
     immutable "^3.8.2"
 
@@ -1173,9 +1173,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-fetch@>=0.10.0:
   version "3.0.0"
